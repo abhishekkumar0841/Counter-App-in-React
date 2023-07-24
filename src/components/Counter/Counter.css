@@ -1,0 +1,33 @@
+.counter{
+    width: 60%;
+    height: 60%;
+    background: #ff4957;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.counting h1{
+    font-size: 5rem;
+    color: #fff;
+}
+
+.btns button{
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 1rem;
+
+}
